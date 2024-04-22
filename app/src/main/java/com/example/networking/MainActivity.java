@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import com.google.gson.Gson;
+
 
 @SuppressWarnings("FieldCanBeLocal")
 public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener {
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     private final String JSON_FILE = "mountains.json";
 
     ArrayList<mountain> mountains= new ArrayList<>();
+
+    Gson gson = new Gson();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
