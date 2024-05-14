@@ -18,11 +18,11 @@ import com.google.gson.reflect.TypeToken;
 @SuppressWarnings("FieldCanBeLocal")
 public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener {
 
-    private final String JSON_URL = "https://mobprog.webug.se/json-api?login=brom";
+    private final String JSON_URL = "https://mobprog.webug.se/json-api?login=a23lisjo";
 
-    ArrayList<mountain> mountains= new ArrayList<>();
+    ArrayList<owl> owls= new ArrayList<>();
     Gson gson = new Gson();
-    String json = gson.toJson(mountains);
+    String json = gson.toJson(owls);
 
 
 
@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     public void onPostExecute(String json) {
         Log.d("MainActivity", json);
 
-        Type type = new TypeToken<ArrayList<mountain>>() {}.getType();
-        ArrayList<mountain> mountains = gson.fromJson(json, type);
+        Type type = new TypeToken<ArrayList<owl>>() {}.getType();
+        ArrayList<owl> owls = gson.fromJson(json, type);
 
-        RecyclerView recycler_view = findViewById(R.id.recycler_view);
+        RecyclerView recycler_view = findViewById(R.id.widgetrecycler);
 
-        recyclerviewadapter adapter = new recyclerviewadapter (this, mountains);
+        recyclerviewadapter adapter = new recyclerviewadapter (this, owls);
         recycler_view.setAdapter(adapter);
         recycler_view.setLayoutManager(new LinearLayoutManager(this));
         adapter.notifyDataSetChanged();
