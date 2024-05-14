@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "a23lisjo_1",
+    "name": "Kattuggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Eurasien",
+    "category": "Strix",
+    "size": 38,
+    "cost": 800,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_10",
+    "name": "Jorduggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Global",
+    "category": "Asio",
+    "size": 40,
+    "cost": 475,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_2",
+    "name": "Pärluggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Global",
+    "category": "Aegolius",
+    "size": 26,
+    "cost": 194,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_3",
+    "name": "Berguv",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Eurasien",
+    "category": "Bubo",
+    "size": 73,
+    "cost": 270,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_4",
+    "name": "Tornuggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Global",
+    "category": "Tyto",
+    "size": 39,
+    "cost": 620,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_5",
+    "name": "Hornuggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Palearktis,Nordamerika",
+    "category": "Asio",
+    "size": 37,
+    "cost": 250,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_6",
+    "name": "Fjälluggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Global",
+    "category": "Bubo",
+    "size": 66,
+    "cost": 200,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_7",
+    "name": "Slaguggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Eurasien",
+    "category": "Strix",
+    "size": 59,
+    "cost": 780,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_8",
+    "name": "Minervauggla",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Eurasien,Afrika",
+    "category": "Athene",
+    "size": 27,
+    "cost": 200,
+    "auxdata": ""
+  },
+  {
+    "ID": "a23lisjo_9",
+    "name": "Dvärguv",
+    "type": "a23lisjo",
+    "company": "",
+    "location": "Eurasien,Afrika",
+    "category": "Otus",
+    "size": 19,
+    "cost": 92,
+    "auxdata": ""
+  }
+]
